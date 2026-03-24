@@ -29,7 +29,6 @@ class Program
 
         while (rounds <= 7)
         {
-
             Hero currentHero = heroQueue.Dequeue();
             Console.WriteLine($"\n{currentHero.Name}'s turn.");
 
